@@ -61,5 +61,31 @@ No copiaremos y pegaremos código. Tu misión es actuar como el **Director de Pr
 > 3. Fuera de la clase, crea un bucle que instancie 5 enemigos en posiciones aleatorias."
 
 ---
+
+### 🔥 Reto Final: Condición de Derrota (Game Over)
+**Misión:** Implementar la lógica para perder la partida.
+
+**Instrucción para el alumno:** 
+Intenta redactar tu propio prompt para lograr esto. **Pista:** Dile a la IA que en el método `update` del enemigo, calcule la distancia entre el enemigo y el jugador. Si la distancia es menor a 1.5, debe imprimir `'¡GAME OVER!'` y cerrar la aplicación con `application.quit()`.
+
+---
+
+## 🏆 Tips de Oro para Prompt Engineering
+
+Para obtener los mejores resultados de la IA, recuerda:
+
+1.  **Asigna un Rol**: Empieza con *"Actúa como un experto en..."*
+2.  **Sé Específico**: En lugar de *"haz que se mueva"*, usa *"suma la posición actual más la dirección forward multiplicada por el tiempo"*.
+3.  **Itera y Corrige**: Si el código lanza un error, no te rindas. Copia el error exacto y dile a la IA: *"Me salió este error: [PEGA EL ERROR AQUÍ], ¿cómo lo soluciono?"*.
+
+---
+
+## 📂 Estructura del Repositorio
+- `game_final.py`: La solución maestra completa (¡No la abras hasta terminar el reto!).
+- `images/`: Carpeta con texturas para quienes quieran mejorar el aspecto visual del juego.
+
+**¡Buena suerte, desarrollador! 🚀**
+
+
 ---
 
