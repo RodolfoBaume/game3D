@@ -42,6 +42,12 @@ No copiaremos y pegaremos código. Tu misión es actuar como el **Director de Pr
 > "Modifica el código anterior. Importa la librería `random`. Antes de instanciar al jugador, crea un bucle que genere 30 cubos aleatorios. Cada cubo debe tener: modelo `'cube'`, color cyan, collider `'box'` y una posición X, Y, Z aleatoria (X y Z entre -20 y 20, Y entre 1 y 8)."
 
 ---
+### 🟡 Fase 3: Interacción y Feedback (Mecánica de Disparo)
+**Misión:** Hacer que el juego sea interactivo y tenga sensaciones visuales ("Game Juice").
+
+**Prompt sugerido:**
+> "Agrega una mecánica de destrucción. Define la función `input(key)`. Si la tecla es `'left mouse down'`, verifica si el ratón apunta a una entidad (que no sea el suelo) y destrúyela usando `destroy()`. 
+> Además, añade un efecto visual de retroceso: cuando se dispare, la cámara del jugador debe subir ligeramente y el campo de visión (`fov`) debe cambiar a 95 y regresar a 90 rápidamente usando la función `invoke()`."
 
 ---
 
