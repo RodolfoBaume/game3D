@@ -35,3 +35,13 @@ No copiaremos y pegaremos código. Tu misión es actuar como el **Director de Pr
 
 ---
 
+### 🔵 Fase 2: Generación Procedural (Aleatoriedad)
+**Misión:** Poblar el mundo con obstáculos dinámicos.
+
+**Prompt sugerido:**
+> "Modifica el código anterior. Importa la librería `random`. Antes de instanciar al jugador, crea un bucle que genere 30 cubos aleatorios. Cada cubo debe tener: modelo `'cube'`, color cyan, collider `'box'` y una posición X, Y, Z aleatoria (X y Z entre -20 y 20, Y entre 1 y 8)."
+
+---
+
+---
+
