@@ -51,3 +51,15 @@ No copiaremos y pegaremos código. Tu misión es actuar como el **Director de Pr
 
 ---
 
+### 🔴 Fase 4: Inteligencia Artificial (El Enemigo)
+**Misión:** Crear una amenaza autónoma que persiga al jugador.
+
+**Prompt sugerido:**
+> "Crea una clase llamada `Enemigo` que herede de `Entity`. 
+> 1. En el `__init__`, asígnale un modelo `'cube'`, color rojo, collider `'box'` y que reciba la posición X y Z como parámetros.
+> 2. En el método `update()`, haz que el enemigo siempre mire al jugador usando `self.look_at(jugador)` y se mueva hacia él sumando `self.forward * 1.2 * time.dt` a su posición.
+> 3. Fuera de la clase, crea un bucle que instancie 5 enemigos en posiciones aleatorias."
+
+---
+---
+
